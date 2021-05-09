@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+    
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="dark">
+    <title> Docker 커맨드 정리 | KwanDev</title>
+    
+    
+    
+    <link rel="stylesheet" href="/sass/main.min.85012d0996f0380c1d60b7c11fa7cb08a3783fc0e0b2a87d95171cec3f4fa20a.css">
+</head>
+
+    <body class="dark">
+        <nav class="navbar">
+    <div class="container">
+        <div class="flex">
+            <div>
+                <a class="brand" href="/">
+                    
+                    <span class="emoji">
+                        😎
+                    </span>
+                    
+                    KwanDev
+                    </a>
+            </div>
+            <div class="flex">
+                
+                <a href="/articles/">Articles</a>
+                
+                <button id="dark-mode-button"></button>
+            </div>
+            </div>
+    </div>
+</nav>
+        <main>
+            
+
+<div class="container">
+    <article>
+        <header class="article-header">
+            <div class="thumb">
+                <div>
+                    <h1>Docker 커맨드 정리</h1>
+                    <div class="post-meta">
+                        <div>
+                            
+                            <time>March 26, 2020</time>
+                        </div>
+                        <div class="tags">
+                            
+                            <a href="/tags/docker/">Docker</a>
+                            
+                            <a href="/tags/node/">Node</a>
+                            
+                            <a href="/tags/express/">Express</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </article>
+
+    <div class="article-post">
+        <p>Docker를 처음 사용해보고 적용해보면서 만나는 기본적인 명령어나, 스니펫들을 정리해놓기로 했다.</p>
+<p>지속적으로 업데이트하며 계속 들여다보도록 하자.</p>
+<h1 id="-설정파일">🛠 설정파일</h1>
+<h2 id="dockerignore">.dockerignore</h2>
+<p>docker 이미지를 만들 때에 제외할 파일이나 폴더를 설정해놓을 수 있다. gitignore를 생각하면 편하다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">node_modules/
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="dockerfile">Dockerfile</h2>
+<p>이미지를 만들 때 사용되는 파일. <code>Dockerfile.ops</code>등 추가적인 텍스트를 이용해 환경에 따라 구분해서 사용할 수도 있다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">FROM node:10
+
+WORKDIR /usr/src/app
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+<span class="c1"># EXPOSE 3010</span>
+
+CMD <span class="o">[</span><span class="s2">&#34;npm&#34;</span>, <span class="s2">&#34;run&#34;</span>, <span class="s2">&#34;dev&#34;</span><span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="-명렁어">✏ 명렁어</h1>
+<h2 id="-이미지">🖼 이미지</h2>
+<h3 id="이미지-생성">이미지 생성</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker build --tag node-nginx:test .
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="이미지-확인">이미지 확인</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker images
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="이미지-삭제">이미지 삭제</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker rmi <span class="o">[</span>image id<span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="컨테이너-강제-삭제-후-이미지-삭제">컨테이너 강제 삭제 후 이미지 삭제</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker rmi -f <span class="o">[</span>image id<span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="이미지-실행">이미지 실행</h3>
+<p>이미지를 실행하면 해당 이미지 설정에 따른 컨테이너가 실행된다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># docer run --name [생성할 컨테이너 명] -p [사용포트:기존포트] [도커이미지]</span>
+
+$ docker run --name node-nginx-instance -p 3000:3000 node-nginx:test
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="-컨테이너">🖥 컨테이너</h2>
+<h3 id="컨테이너-확인">컨테이너 확인</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker ps
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="모든-컨테이너-확인">모든 컨테이너 확인</h3>
+<p>정지, 삭제된 컨테이너들까지 확인할 수 있다.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker ps -a
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="컨테이너-삭제">컨테이너 삭제</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># 1개 삭제</span>
+$ docker rm <span class="o">[</span>container id<span class="o">]</span>
+
+<span class="c1"># 복수개 삭제</span>
+$ docker rm <span class="o">[</span>container id<span class="o">]</span>, <span class="o">[</span>container id<span class="o">]</span>, ...
+</code></pre></td></tr></table>
+</div>
+</div><h3 id="컨테이너-시작">컨테이너 시작</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash">$ docker start <span class="o">[</span>container id<span class="o">]</span>
+
+$ docker restart <span class="o">[</span>container id<span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+</div>
+
+<div class="container">
+    
+    <nav class="flex container suggested">
+        
+        <a rel="prev" href="/post/recruit/2020-03-21-frontend-question/" title="Previous post (older)">
+            <span>Previous</span>
+            프론트엔드 개발자 면접 질문 모음
+        </a>
+        
+
+        
+        <a rel="next" href="/post/etc/2020-04-11-2020-1.log/" title="Next post (newer)">
+            <span>Next</span>
+            2020년 1분기 회고
+        </a>
+        
+    </nav>
+    
+</div>
+</main>
+
+
+        </main>
+        <footer class="footer flex">
+    <section class="container">
+        <nav class="footer-links">
+            
+            <a href="/index.xml">RSS</a>
+            
+        </nav>
+    </section>
+    
+    <script async src="/js/features.min.c5d8f3350f5a652f526b982306299353824299adb7a3bd261ecffacc47087f66.js"></script>
+</footer>
+    </body>
+</html>

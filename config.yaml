@@ -1,0 +1,27 @@
+baseURL: "http://example.org/"
+languageCode: "ko"
+title: "KwanDev"
+theme: "tania"
+paginate: 6
+
+params:
+  titleEmoji: "😎"
+  socialOptions:
+    github: "https://github.com/kwandev"
+    email: "mailto:rudghks7816@gmail.com"
+
+menu:
+  header:
+    - name: Articles
+      url: "/articles/"
+  footer:
+    - name: RSS
+      url: "/index.xml"
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: true
+  goldmark:
+    renderer:
+      unsafe: true
