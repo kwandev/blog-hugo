@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JavaScript on KwanDev</title>
-    <link>http://example.org/tags/javascript/</link>
+    <link>https://kwandev.github.io/tags/javascript/</link>
     <description>Recent content in JavaScript on KwanDev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 04 Jul 2020 15:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jul 2020 15:00:00 +0000</lastBuildDate><atom:link href="https://kwandev.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Axios Header에 특수문자가 있을경우 에러처리</title>
-      <link>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</link>
+      <link>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</link>
       <pubDate>Sat, 04 Jul 2020 15:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</guid>
+      <guid>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</guid>
       <description>👀 원인 axios를 이용해서 API 통신을 하던 도중, 전혀 통신이 되지 않거나 에러가 나는 경우를 발견했다.
 문제는 axios header에 정보를 넘길 때, 의도치않게 특수문자 아퍼스트로피(’)가 포함되어 있을 경우 에러나 응답이 통신이 안되는 문제.
  아퍼스트로피 (’)와 홑따옴표 (&#39;)는 다르다
@@ -21,10 +21,10 @@
     
     <item>
       <title>JavaScript로 구현해보는 큐(Queue), 스택(Stack)</title>
-      <link>http://example.org/post/javascript/2020-03-14-queue-stack/</link>
+      <link>https://kwandev.github.io/post/javascript/2020-03-14-queue-stack/</link>
       <pubDate>Sat, 14 Mar 2020 16:50:43 +0000</pubDate>
       
-      <guid>http://example.org/post/javascript/2020-03-14-queue-stack/</guid>
+      <guid>https://kwandev.github.io/post/javascript/2020-03-14-queue-stack/</guid>
       <description>지난 면접 중 한 번은 큐와 스택을 화이트보드에 간단하게 구현해보라는 시간이 있었다. 코딩은 했지만 아쉬운 부분이 남아 다시 정리해본다.
 큐와 스택은 가장 기본적인 자료구조형이면서 선형(linear)자료구조이다. 자바스크립트는 다른 언어와는 다르게 Array로 구현이 충분하기 때문에 각각 구현해보자.
 큐 (Queue) 큐는 먼저 집어넣은 데이터가 먼저 나오는 선형자료구조이다. 이 특징을 줄여서 **FIFO(First In First Out)**라고 부른다.
@@ -33,10 +33,10 @@
     
     <item>
       <title>JavaScript this 정리</title>
-      <link>http://example.org/post/javascript/2019-10-09-javascript-this/</link>
+      <link>https://kwandev.github.io/post/javascript/2019-10-09-javascript-this/</link>
       <pubDate>Wed, 09 Oct 2019 13:05:23 +0000</pubDate>
       
-      <guid>http://example.org/post/javascript/2019-10-09-javascript-this/</guid>
+      <guid>https://kwandev.github.io/post/javascript/2019-10-09-javascript-this/</guid>
       <description>자바스크립트에서 this는 호출되는 방식에 따라 달라지기 때문에 이해하기 너무 어려운 관계로 아예 대표적인 몇 가지를 그냥 외워버리기로 함.
 1. 자유함수 호출 가장 기본적인 경우, 별다른 조건이 없을 때에 this는 전역객체를 바라본다.
 1 2 3 4 5 6 7  console.log(this === window); // true console.log(toString.call(this)); // [object Window]  function freeFunction() { console.log(this === window); // true } freeFunction();    browser의 전역객체는 window

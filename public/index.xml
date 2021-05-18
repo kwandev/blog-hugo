@@ -1,17 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>KwanDev</title>
-    <link>http://example.org/</link>
+    <link>https://kwandev.github.io/</link>
     <description>Recent content on KwanDev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Mon, 03 Aug 2020 22:00:00 +0000</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2020 22:00:00 +0000</lastBuildDate><atom:link href="https://kwandev.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
     <title>2020년 2분기 회고</title>
-    <link>http://example.org/post/etc/2020-08-03-2020-2.log/</link>
+    <link>https://kwandev.github.io/post/etc/2020-08-03-2020-2.log/</link>
     <pubDate>Mon, 03 Aug 2020 22:00:00 +0000</pubDate>
     
-    <guid>http://example.org/post/etc/2020-08-03-2020-2.log/</guid>
+    <guid>https://kwandev.github.io/post/etc/2020-08-03-2020-2.log/</guid>
     <description>
         &lt;h2 id=&#34;새로운-회사&#34;&gt;새로운 회사&lt;/h2&gt;
 &lt;p&gt;2019년, 약 2년간 다니던 회사를 그만두고 이직준비를 시작했다. 이전에는 주로 추천이나 소개에 의해 회사를 옮기다 보니, 일반적인 기업의 면접 프로세스를 경험할 일이 없었다. 자연스레 이번에는 코딩테스트, 기술면접, 인성면접 등을 준비하게 되었고, 준비를 하다보니 개발자로써의 나는 얼마나 작은 존재인지 느끼게 되는 계기가 되었다. 내가 한 준비를 나름 세분화 해서 적어보도록 하자.&lt;/p&gt;
@@ -44,10 +44,10 @@
     
     <item>
     <title>Axios Header에 특수문자가 있을경우 에러처리</title>
-    <link>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</link>
+    <link>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</link>
     <pubDate>Sat, 04 Jul 2020 15:00:00 +0000</pubDate>
     
-    <guid>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</guid>
+    <guid>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</guid>
     <description>
         &lt;h1 id=&#34;-원인&#34;&gt;👀 원인&lt;/h1&gt;
 &lt;p&gt;axios를 이용해서 API 통신을 하던 도중, 전혀 통신이 되지 않거나 에러가 나는 경우를 발견했다.&lt;/p&gt;
@@ -145,10 +145,10 @@
     
     <item>
     <title>Nuxt에서 svg-sprite-loader 사용하기</title>
-    <link>http://example.org/post/vue/2020-05-31-nuxt-svg-loader/</link>
+    <link>https://kwandev.github.io/post/vue/2020-05-31-nuxt-svg-loader/</link>
     <pubDate>Sun, 31 May 2020 23:11:11 +0000</pubDate>
     
-    <guid>http://example.org/post/vue/2020-05-31-nuxt-svg-loader/</guid>
+    <guid>https://kwandev.github.io/post/vue/2020-05-31-nuxt-svg-loader/</guid>
     <description>
         &lt;p&gt;최근 회사에서 Nuxt를 사용할 일이 있었는데, Nuxt에 기본 내장된 loader가 아닌 다른 loader를 선택해서 사용할때 겪었던 문제를 기록해두려한다.&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -244,10 +244,10 @@
     
     <item>
     <title>프론트엔드 개발자 이직후기</title>
-    <link>http://example.org/post/recruit/2020-04-19-change-job-review/</link>
+    <link>https://kwandev.github.io/post/recruit/2020-04-19-change-job-review/</link>
     <pubDate>Sun, 19 Apr 2020 19:45:41 +0000</pubDate>
     
-    <guid>http://example.org/post/recruit/2020-04-19-change-job-review/</guid>
+    <guid>https://kwandev.github.io/post/recruit/2020-04-19-change-job-review/</guid>
     <description>
         &lt;h2 id=&#34;-이력서-작성&#34;&gt;✏ 이력서 작성&lt;/h2&gt;
 &lt;p&gt;기존에도 항상 이력서를 다시 작성할 수 있도록 구글 시트에 간단하게 이력과 경력에 대한 정보를 기록해 두었다. 한 줄에서두 줄 정도로 요약을 해두면 이력서를 작성할 때 빠르게 작성이 가능하다.&lt;/p&gt;
@@ -900,10 +900,10 @@
     
     <item>
     <title>MySQL 기초 문법 정리</title>
-    <link>http://example.org/post/mysql/2020-04-12-mysql-base.log/</link>
+    <link>https://kwandev.github.io/post/mysql/2020-04-12-mysql-base.log/</link>
     <pubDate>Sun, 12 Apr 2020 18:07:00 +0000</pubDate>
     
-    <guid>http://example.org/post/mysql/2020-04-12-mysql-base.log/</guid>
+    <guid>https://kwandev.github.io/post/mysql/2020-04-12-mysql-base.log/</guid>
     <description>
         &lt;p&gt;프론트엔드 개발을 하게되면서 백엔드는 거의 손놓고 있다가 최근 다시 백엔드를 하기 시작했다. 간단한 문법이나 개념이 혼동되기 시작해서 DB를 만들고 사용하는 정말 기본적인 문법만 정리를 해봤다.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1133,10 +1133,10 @@
     
     <item>
     <title>2020년 1분기 회고</title>
-    <link>http://example.org/post/etc/2020-04-11-2020-1.log/</link>
+    <link>https://kwandev.github.io/post/etc/2020-04-11-2020-1.log/</link>
     <pubDate>Sat, 11 Apr 2020 16:07:00 +0000</pubDate>
     
-    <guid>http://example.org/post/etc/2020-04-11-2020-1.log/</guid>
+    <guid>https://kwandev.github.io/post/etc/2020-04-11-2020-1.log/</guid>
     <description>
         &lt;p&gt;매월 회고를 작성하는게 부담스러워서 분기별로 작성하기로 하고 1분기에 대한 회고와 다음 목표를 적어보도록 하자.&lt;/p&gt;
 &lt;h2 id=&#34;이직&#34;&gt;이직&lt;/h2&gt;
@@ -1170,10 +1170,10 @@
     
     <item>
     <title>Docker 커맨드 정리</title>
-    <link>http://example.org/post/docker/2020-03-26-docker-command/</link>
+    <link>https://kwandev.github.io/post/docker/2020-03-26-docker-command/</link>
     <pubDate>Thu, 26 Mar 2020 15:22:00 +0000</pubDate>
     
-    <guid>http://example.org/post/docker/2020-03-26-docker-command/</guid>
+    <guid>https://kwandev.github.io/post/docker/2020-03-26-docker-command/</guid>
     <description>
         &lt;p&gt;Docker를 처음 사용해보고 적용해보면서 만나는 기본적인 명령어나, 스니펫들을 정리해놓기로 했다.&lt;/p&gt;
 &lt;p&gt;지속적으로 업데이트하며 계속 들여다보도록 하자.&lt;/p&gt;
@@ -1330,10 +1330,10 @@ $ docker restart &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;container id&lt;spa
     
     <item>
     <title>프론트엔드 개발자 면접 질문 모음</title>
-    <link>http://example.org/post/recruit/2020-03-21-frontend-question/</link>
+    <link>https://kwandev.github.io/post/recruit/2020-03-21-frontend-question/</link>
     <pubDate>Sat, 21 Mar 2020 20:57:00 +0000</pubDate>
     
-    <guid>http://example.org/post/recruit/2020-03-21-frontend-question/</guid>
+    <guid>https://kwandev.github.io/post/recruit/2020-03-21-frontend-question/</guid>
     <description>
         &lt;p&gt;이직을 준비하고 면접을 보면서 들어보고, 내가 물어본 질문을 정리해보았다.
 질문에 대한 대답을 다 정리하진 않았지만 질문들을 정리해서 갖고있어야겠다.&lt;/p&gt;
@@ -1489,10 +1489,10 @@ $ docker restart &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;container id&lt;spa
     
     <item>
     <title>JavaScript로 구현해보는 큐(Queue), 스택(Stack)</title>
-    <link>http://example.org/post/javascript/2020-03-14-queue-stack/</link>
+    <link>https://kwandev.github.io/post/javascript/2020-03-14-queue-stack/</link>
     <pubDate>Sat, 14 Mar 2020 16:50:43 +0000</pubDate>
     
-    <guid>http://example.org/post/javascript/2020-03-14-queue-stack/</guid>
+    <guid>https://kwandev.github.io/post/javascript/2020-03-14-queue-stack/</guid>
     <description>
         &lt;p&gt;지난 면접 중 한 번은 큐와 스택을 화이트보드에 간단하게 구현해보라는 시간이 있었다.
 코딩은 했지만 아쉬운 부분이 남아 다시 정리해본다.&lt;/p&gt;
@@ -1748,10 +1748,10 @@ $ docker restart &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;container id&lt;spa
     
     <item>
     <title>Nuxt로 알아보는 SPA, SSR 그리고 Static Web</title>
-    <link>http://example.org/post/vue/2020-03-02-nuxt-spa-ssr/</link>
+    <link>https://kwandev.github.io/post/vue/2020-03-02-nuxt-spa-ssr/</link>
     <pubDate>Mon, 02 Mar 2020 13:51:20 +0000</pubDate>
     
-    <guid>http://example.org/post/vue/2020-03-02-nuxt-spa-ssr/</guid>
+    <guid>https://kwandev.github.io/post/vue/2020-03-02-nuxt-spa-ssr/</guid>
     <description>
         &lt;h1 id=&#34;-그동안의-오해&#34;&gt;😨 그동안의 오해&lt;/h1&gt;
 &lt;p&gt;나는 그동안 Nuxt를 제대로 알고 있다고 생각했다. 흔히 말하는 SPA의 특징과 SSR의 특징을 이해하고 있다고 믿었고, 서비스의 특징과 필요에 따라 사용하면 된다고 알고 있었다. 그러나 사이드 프로젝트를 진행하면서 의문이 들어 나름의 조사를 해보니 SPA와 SSR의 큰 특징들만 알고 있었지, Nuxt를 제대로 아는 것이 아니었더라. SPA, SSR 그리고 Static Web의 차이를 제대로 알고 쓰도록 하자.&lt;/p&gt;
@@ -2254,10 +2254,10 @@ Pre-Rendering이란 뭔지, SSR에 서버가 필요할 때는 언제인지, SPA�
     
     <item>
     <title>2020년 01월 회고</title>
-    <link>http://example.org/post/etc/2020-01-01-202001.log/</link>
+    <link>https://kwandev.github.io/post/etc/2020-01-01-202001.log/</link>
     <pubDate>Tue, 04 Feb 2020 15:45:41 +0000</pubDate>
     
-    <guid>http://example.org/post/etc/2020-01-01-202001.log/</guid>
+    <guid>https://kwandev.github.io/post/etc/2020-01-01-202001.log/</guid>
     <description>
         &lt;h2 id=&#34;이직준비&#34;&gt;이직준비&lt;/h2&gt;
 &lt;p&gt;결론부터 말하면 1월달에 이직에 실패했다. 서류탈락한 경우도 있고, 면접에 탈락한 경우도 있다. 기본적으로는 내가 가진 스펙이나 실력에 비해 상향지원을 한 감이 있는데, 아무래도 부족한 부분을 메꾸기 위해선 긴 시간이 필요할 것 같다.
@@ -2307,10 +2307,10 @@ Pre-Rendering이란 뭔지, SSR에 서버가 필요할 때는 언제인지, SPA�
     
     <item>
     <title>CyclicRotation - 코딜리티 Lesson 2</title>
-    <link>http://example.org/post/codingtest/2020-02-01-codility-cyclicrotation/</link>
+    <link>https://kwandev.github.io/post/codingtest/2020-02-01-codility-cyclicrotation/</link>
     <pubDate>Sat, 01 Feb 2020 19:21:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2020-02-01-codility-cyclicrotation/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2020-02-01-codility-cyclicrotation/</guid>
     <description>
         &lt;h2 id=&#34;문제출처&#34;&gt;문제출처&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/&#34;&gt;코딜리티 CyclicRotation 문제 바로가기&lt;/a&gt;&lt;/p&gt;
@@ -2396,10 +2396,10 @@ Pre-Rendering이란 뭔지, SSR에 서버가 필요할 때는 언제인지, SPA�
     
     <item>
     <title>Binary Gap - 코딜리티 Lesson 1</title>
-    <link>http://example.org/post/codingtest/2020-01-29-codility-binarygap/</link>
+    <link>https://kwandev.github.io/post/codingtest/2020-01-29-codility-binarygap/</link>
     <pubDate>Wed, 29 Jan 2020 18:52:33 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2020-01-29-codility-binarygap/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2020-01-29-codility-binarygap/</guid>
     <description>
         &lt;h2 id=&#34;문제출처&#34;&gt;문제출처&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://app.codility.com/programmers/lessons/1-iterations/binary_gap/&#34;&gt;코딜리티 바로가기&lt;/a&gt;&lt;/p&gt;
@@ -2498,10 +2498,10 @@ Pre-Rendering이란 뭔지, SSR에 서버가 필요할 때는 언제인지, SPA�
     
     <item>
     <title>[Level 2] 위장 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2020-01-04-programmers-%EC%9C%84%EC%9E%A5/</link>
+    <link>https://kwandev.github.io/post/codingtest/2020-01-04-programmers-%EC%9C%84%EC%9E%A5/</link>
     <pubDate>Sat, 04 Jan 2020 17:25:33 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2020-01-04-programmers-%EC%9C%84%EC%9E%A5/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2020-01-04-programmers-%EC%9C%84%EC%9E%A5/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42578&#34;&gt;위장&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -2643,10 +2643,10 @@ face에 해당하는 의상이 crowmask, bluesunglasses, smoky_makeup이므로 �
     
     <item>
     <title>2019년 12월 회고</title>
-    <link>http://example.org/post/etc/2020-01-01-201912.log/</link>
+    <link>https://kwandev.github.io/post/etc/2020-01-01-201912.log/</link>
     <pubDate>Wed, 01 Jan 2020 15:45:41 +0000</pubDate>
     
-    <guid>http://example.org/post/etc/2020-01-01-201912.log/</guid>
+    <guid>https://kwandev.github.io/post/etc/2020-01-01-201912.log/</guid>
     <description>
         &lt;p&gt;지난 12월을 보내면서 느낀 점과 1월의 다짐을 카테고리별로 정리해보자.&lt;/p&gt;
 &lt;h2 id=&#34;퇴직&#34;&gt;퇴직&lt;/h2&gt;
@@ -2722,10 +2722,10 @@ face에 해당하는 의상이 crowmask, bluesunglasses, smoky_makeup이므로 �
     
     <item>
     <title>[Level 2] 프린터 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-31-programmers-%ED%94%84%EB%A6%B0%ED%84%B0/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-31-programmers-%ED%94%84%EB%A6%B0%ED%84%B0/</link>
     <pubDate>Tue, 31 Dec 2019 13:57:45 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-31-programmers-%ED%94%84%EB%A6%B0%ED%84%B0/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-31-programmers-%ED%94%84%EB%A6%B0%ED%84%B0/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42587&#34;&gt;프린터&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -2853,10 +2853,10 @@ face에 해당하는 의상이 crowmask, bluesunglasses, smoky_makeup이므로 �
     
     <item>
     <title>[Level 1] 탑 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-30-programmers-%ED%83%91/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-30-programmers-%ED%83%91/</link>
     <pubDate>Mon, 30 Dec 2019 12:54:45 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-30-programmers-%ED%83%91/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-30-programmers-%ED%83%91/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42588&#34;&gt;탑&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -3019,10 +3019,10 @@ face에 해당하는 의상이 crowmask, bluesunglasses, smoky_makeup이므로 �
     
     <item>
     <title>[Level 1] 완주하지 못한 선수 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-29-programmers-%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-29-programmers-%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98/</link>
     <pubDate>Sun, 29 Dec 2019 14:54:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-29-programmers-%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-29-programmers-%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42576&#34;&gt;완주하지 못한 선수&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -3110,10 +3110,10 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     
     <item>
     <title>[Level 2] 가장 큰 수 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-27-programmers-%EA%B0%80%EC%9E%A5%ED%81%B0%EC%88%98/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-27-programmers-%EA%B0%80%EC%9E%A5%ED%81%B0%EC%88%98/</link>
     <pubDate>Fri, 27 Dec 2019 18:10:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-27-programmers-%EA%B0%80%EC%9E%A5%ED%81%B0%EC%88%98/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-27-programmers-%EA%B0%80%EC%9E%A5%ED%81%B0%EC%88%98/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42746&#34;&gt;가장 큰 수&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -3212,10 +3212,10 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     
     <item>
     <title>[Level 1] K번째수 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-25-programmers-k%EB%B2%88%EC%A7%B8%EC%88%98/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-25-programmers-k%EB%B2%88%EC%A7%B8%EC%88%98/</link>
     <pubDate>Wed, 25 Dec 2019 21:15:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-25-programmers-k%EB%B2%88%EC%A7%B8%EC%88%98/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-25-programmers-k%EB%B2%88%EC%A7%B8%EC%88%98/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42748&#34;&gt;K번째수&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -3289,10 +3289,10 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     
     <item>
     <title>예산 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-24-programmers-summer-winter-2018-1/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-24-programmers-summer-winter-2018-1/</link>
     <pubDate>Tue, 24 Dec 2019 19:05:41 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-24-programmers-summer-winter-2018-1/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-24-programmers-summer-winter-2018-1/</guid>
     <description>
         &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
 &lt;details&gt;
@@ -3399,10 +3399,10 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     
     <item>
     <title>실패율 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-23-programmers-kakao2019-1/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-23-programmers-kakao2019-1/</link>
     <pubDate>Mon, 23 Dec 2019 18:10:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-23-programmers-kakao2019-1/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-23-programmers-kakao2019-1/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42889&#34;&gt;2019 KAKAO BLIND RECRUITMENT의 실패율&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h1 id=&#34;실패율&#34;&gt;실패율&lt;/h1&gt;
@@ -3579,15 +3579,15 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     
     <item>
     <title>Level 1 연습문제 (3) - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-20-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C3/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-20-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C3/</link>
     <pubDate>Fri, 20 Dec 2019 14:30:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-20-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C3/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-20-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C3/</guid>
     <description>
         &lt;p&gt;&lt;em&gt;Last Update: 2019-12-22&lt;/em&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://example.org/blog/codingtest/2019-12-14-programmers-1&#34;&gt;Level 1 연습문제 (1) 바로가기&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://example.org/blog/codingtest/2019-12-17-programmers-2&#34;&gt;Level 1 연습문제 (2) 바로가기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kwandev.github.io/blog/codingtest/2019-12-14-programmers-1&#34;&gt;Level 1 연습문제 (1) 바로가기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kwandev.github.io/blog/codingtest/2019-12-17-programmers-2&#34;&gt;Level 1 연습문제 (2) 바로가기&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Level 1 연습문제 (3)&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;프로그래머스의 Level1 문제들중 &lt;code&gt;연습문제&lt;/code&gt;라는 카테고리의 문제들은 다른 문제들에 비해 쉬운 편이니 여러 글을 나눠 쓰지 않고 이번 글에 쭉 적어 볼 생각이다. 못 푼건 물론 안적음.&lt;/p&gt;
@@ -3918,7 +3918,7 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
 &lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;결론적으로는 x를 각 자릿수의 합으로 나눈 값이 0인지만 구하면 된다. 각 자릿수의 합을 구하는 방법은 &lt;a href=&#34;http://example.org/blog/codingtest/2019-12-17-programmers-algorithm-2#%EC%9E%90%EB%A6%BF%EC%88%98-%EB%8D%94%ED%95%98%EA%B8%B0&#34;&gt;Level 1 연습문제 (2) - 자릿수 더하기&lt;/a&gt;를 참고하면 된다.&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;결론적으로는 x를 각 자릿수의 합으로 나눈 값이 0인지만 구하면 된다. 각 자릿수의 합을 구하는 방법은 &lt;a href=&#34;https://kwandev.github.io/blog/codingtest/2019-12-17-programmers-algorithm-2#%EC%9E%90%EB%A6%BF%EC%88%98-%EB%8D%94%ED%95%98%EA%B8%B0&#34;&gt;Level 1 연습문제 (2) - 자릿수 더하기&lt;/a&gt;를 참고하면 된다.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;핸드폰-번호-가리기&#34;&gt;핸드폰 번호 가리기&lt;/h2&gt;
 &lt;details&gt;
@@ -4184,16 +4184,16 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     
     <item>
     <title>Level 1 연습문제 (2) - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-17-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C2/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-17-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C2/</link>
     <pubDate>Tue, 17 Dec 2019 22:13:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-17-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C2/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-17-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C2/</guid>
     <description>
         &lt;p&gt;&lt;em&gt;Last Update: 2019-12-22&lt;/em&gt;&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;http://example.org/blog/codingtest/2019-12-14-programmers-1&#34;&gt;Level 1 연습문제 (1) 바로가기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kwandev.github.io/blog/codingtest/2019-12-14-programmers-1&#34;&gt;Level 1 연습문제 (1) 바로가기&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Level 1 연습문제 (2)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://example.org/blog/codingtest/2019-12-20-programmers-3&#34;&gt;Level 1 연습문제 (3) 바로가기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kwandev.github.io/blog/codingtest/2019-12-20-programmers-3&#34;&gt;Level 1 연습문제 (3) 바로가기&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;프로그래머스의 Level1 문제들중 &lt;code&gt;연습문제&lt;/code&gt;라는 카테고리의 문제들은 다른 문제들에 비해 쉬운 편이니 여러 글을 나눠 쓰지 않고 이번 글에 쭉 적어 볼 생각이다. 못 푼건 물론 안적음.&lt;/p&gt;
 &lt;h2 id=&#34;수박수박수박수박수박수&#34;&gt;수박수박수박수박수박수?&lt;/h2&gt;
@@ -4820,16 +4820,16 @@ n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양�
     
     <item>
     <title>Level 1 연습문제 (1) - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-14-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C1/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-14-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C1/</link>
     <pubDate>Sat, 14 Dec 2019 14:50:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-14-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C1/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-14-programmers-%EC%97%B0%EC%8A%B5%EB%AC%B8%EC%A0%9C1/</guid>
     <description>
         &lt;p&gt;&lt;em&gt;Last Update: 2019-12-17&lt;/em&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Level 1 연습문제 (1)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://example.org/blog/codingtest/2019-12-17-programmers-2&#34;&gt;Level 1 연습문제 (2) 바로가기&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://example.org/blog/codingtest/2019-12-20-programmers-3&#34;&gt;Level 1 연습문제 (3) 바로가기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kwandev.github.io/blog/codingtest/2019-12-17-programmers-2&#34;&gt;Level 1 연습문제 (2) 바로가기&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kwandev.github.io/blog/codingtest/2019-12-20-programmers-3&#34;&gt;Level 1 연습문제 (3) 바로가기&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;프로그래머스의 Level1 문제들중 &lt;code&gt;연습문제&lt;/code&gt;라는 카테고리의 문제들은 다른 문제들에 비해 쉬운 편이니 여러 글을 나눠 쓰지 않고 이번 글에 쭉 적어 볼 생각이다. 못 푼건 물론 안적음.&lt;/p&gt;
 &lt;h2 id=&#34;2016년&#34;&gt;2016년&lt;/h2&gt;
@@ -5428,10 +5428,10 @@ s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보
     
     <item>
     <title>[Level 1] 체육복 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-13-programmers-%EC%B2%B4%EC%9C%A1%EB%B3%B5/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-13-programmers-%EC%B2%B4%EC%9C%A1%EB%B3%B5/</link>
     <pubDate>Fri, 13 Dec 2019 14:31:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-13-programmers-%EC%B2%B4%EC%9C%A1%EB%B3%B5/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-13-programmers-%EC%B2%B4%EC%9C%A1%EB%B3%B5/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42862&#34;&gt;체육복&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -5664,10 +5664,10 @@ s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보
     
     <item>
     <title>[Level 1] 모의고사 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-12-programmers-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-12-programmers-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/</link>
     <pubDate>Thu, 12 Dec 2019 20:15:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-12-programmers-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-12-programmers-%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/42840&#34;&gt;모의고사&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -5783,10 +5783,10 @@ s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보
     
     <item>
     <title>[1차] 다트게임 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-11-programmers-kakao2018-2/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-11-programmers-kakao2018-2/</link>
     <pubDate>Wed, 11 Dec 2019 17:10:00 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-11-programmers-kakao2018-2/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-11-programmers-kakao2018-2/</guid>
     <description>
         &lt;p&gt;&lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/17682&#34;&gt;2018 KAKAO BLIND RECRUITMENT의 [1차] 다트게임&lt;/a&gt; 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -5964,10 +5964,10 @@ s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보
     
     <item>
     <title>[1차] 비밀지도 - 프로그래머스 코딩테스트 연습</title>
-    <link>http://example.org/post/codingtest/2019-12-10-programmers-kakao2018-1/</link>
+    <link>https://kwandev.github.io/post/codingtest/2019-12-10-programmers-kakao2018-1/</link>
     <pubDate>Tue, 10 Dec 2019 18:36:41 +0000</pubDate>
     
-    <guid>http://example.org/post/codingtest/2019-12-10-programmers-kakao2018-1/</guid>
+    <guid>https://kwandev.github.io/post/codingtest/2019-12-10-programmers-kakao2018-1/</guid>
     <description>
         &lt;p&gt;이직 준비를 하면서 코딩테스트 연습을 하고 있는데, 프로그래머스라는 사이트의 문제를 풀어보기로 했다. 그 중 &lt;a href=&#34;https://programmers.co.kr/learn/courses/30/lessons/17681&#34;&gt;2018 KAKAO BLIND RECRUITMENT의 [1차] 비밀지도&lt;/a&gt;라는 문제 풀이&lt;/p&gt;
 &lt;h2 id=&#34;문제&#34;&gt;문제&lt;/h2&gt;
@@ -6142,10 +6142,10 @@ s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보
     
     <item>
     <title>vue-cli 사용시 PowerShell 에러</title>
-    <link>http://example.org/post/vue/2019-11-09-vue-cli-error/</link>
+    <link>https://kwandev.github.io/post/vue/2019-11-09-vue-cli-error/</link>
     <pubDate>Sat, 09 Nov 2019 15:45:41 +0000</pubDate>
     
-    <guid>http://example.org/post/vue/2019-11-09-vue-cli-error/</guid>
+    <guid>https://kwandev.github.io/post/vue/2019-11-09-vue-cli-error/</guid>
     <description>
         &lt;p&gt;최근 vue cli를 이용하는데 있어, 제대로 실행이 되지 않는 문제가 있어서 원인을 제대로 파악하지 못하고 있었는데, powershell에서 스크립트 실행하는 권한에 대한 정책 때문인 것을 알게 되었다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/54297322/68524255-f6e3cc80-0307-11ea-82ea-cf21654d8379.png&#34; alt=&#34;vue스크립트에러&#34;&gt;&lt;/p&gt;
@@ -6178,10 +6178,10 @@ vue.cmd create &amp;lt;project-name&amp;gt;
     
     <item>
     <title>12가지 명령어로 배우는 Git 리뷰</title>
-    <link>http://example.org/post/git/2019-10-26-review-git-zerocho/</link>
+    <link>https://kwandev.github.io/post/git/2019-10-26-review-git-zerocho/</link>
     <pubDate>Sat, 26 Oct 2019 18:23:59 +0000</pubDate>
     
-    <guid>http://example.org/post/git/2019-10-26-review-git-zerocho/</guid>
+    <guid>https://kwandev.github.io/post/git/2019-10-26-review-git-zerocho/</guid>
     <description>
         &lt;h2 id=&#34;zerocho님의-유튜브-무료강의인-을-보고난-후기&#34;&gt;zerocho님의 유튜브 무료강의인 을 보고난 후기&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLcqDmjxt30RvjqpIBi4mtkK5LkzYtXluF&#34;&gt;링크) 12가지 명령어로 배우는 Git&lt;/a&gt;&lt;/p&gt;
@@ -6214,10 +6214,10 @@ git flow에 대해 들어만 봤지 사용을 해보지는 못했는데, 어렵�
     
     <item>
     <title>JavaScript this 정리</title>
-    <link>http://example.org/post/javascript/2019-10-09-javascript-this/</link>
+    <link>https://kwandev.github.io/post/javascript/2019-10-09-javascript-this/</link>
     <pubDate>Wed, 09 Oct 2019 13:05:23 +0000</pubDate>
     
-    <guid>http://example.org/post/javascript/2019-10-09-javascript-this/</guid>
+    <guid>https://kwandev.github.io/post/javascript/2019-10-09-javascript-this/</guid>
     <description>
         &lt;p&gt;자바스크립트에서 &lt;code&gt;this&lt;/code&gt;는 호출되는 방식에 따라 달라지기 때문에 이해하기 너무 어려운 관계로 아예 대표적인 몇 가지를 그냥 외워버리기로 함.&lt;/p&gt;
 &lt;h3 id=&#34;1-자유함수-호출&#34;&gt;1. 자유함수 호출&lt;/h3&gt;

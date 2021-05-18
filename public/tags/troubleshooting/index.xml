@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>troubleshooting on KwanDev</title>
-    <link>http://example.org/tags/troubleshooting/</link>
+    <link>https://kwandev.github.io/tags/troubleshooting/</link>
     <description>Recent content in troubleshooting on KwanDev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 04 Jul 2020 15:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jul 2020 15:00:00 +0000</lastBuildDate><atom:link href="https://kwandev.github.io/tags/troubleshooting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Axios Header에 특수문자가 있을경우 에러처리</title>
-      <link>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</link>
+      <link>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</link>
       <pubDate>Sat, 04 Jul 2020 15:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</guid>
+      <guid>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</guid>
       <description>👀 원인 axios를 이용해서 API 통신을 하던 도중, 전혀 통신이 되지 않거나 에러가 나는 경우를 발견했다.
 문제는 axios header에 정보를 넘길 때, 의도치않게 특수문자 아퍼스트로피(’)가 포함되어 있을 경우 에러나 응답이 통신이 안되는 문제.
  아퍼스트로피 (’)와 홑따옴표 (&#39;)는 다르다
@@ -21,10 +21,10 @@
     
     <item>
       <title>Nuxt에서 svg-sprite-loader 사용하기</title>
-      <link>http://example.org/post/vue/2020-05-31-nuxt-svg-loader/</link>
+      <link>https://kwandev.github.io/post/vue/2020-05-31-nuxt-svg-loader/</link>
       <pubDate>Sun, 31 May 2020 23:11:11 +0000</pubDate>
       
-      <guid>http://example.org/post/vue/2020-05-31-nuxt-svg-loader/</guid>
+      <guid>https://kwandev.github.io/post/vue/2020-05-31-nuxt-svg-loader/</guid>
       <description>최근 회사에서 Nuxt를 사용할 일이 있었는데, Nuxt에 기본 내장된 loader가 아닌 다른 loader를 선택해서 사용할때 겪었던 문제를 기록해두려한다.
 문제  create-nuxt-app을 이용해서 앱을 만들면 내장된 url-loader에 svg loader가 내장되어있다. 새로운 svg loader를 추가하면 기존 loader와 충돌해서 작동하지 않는다.  해결  기존 loader를 제거하고 새로운 loader를 추가하자  nuxt.config.js Nuxt의 설정파일에서 아래와 같이 설정해 주면 된다. 코드는 어렵지 않기 때문에 보면서 이해할 수 있을 것 같다.
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34  build: { extend (config, ctx) { // svg를 사용중인 loader를 찾고 삭제  const rule = config.</description>

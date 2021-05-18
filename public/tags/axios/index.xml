@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>axios on KwanDev</title>
-    <link>http://example.org/tags/axios/</link>
+    <link>https://kwandev.github.io/tags/axios/</link>
     <description>Recent content in axios on KwanDev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Sat, 04 Jul 2020 15:00:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/axios/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Jul 2020 15:00:00 +0000</lastBuildDate><atom:link href="https://kwandev.github.io/tags/axios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Axios Header에 특수문자가 있을경우 에러처리</title>
-      <link>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</link>
+      <link>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</link>
       <pubDate>Sat, 04 Jul 2020 15:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/javascript/2020-07-04-xhr-apostrophe/</guid>
+      <guid>https://kwandev.github.io/post/javascript/2020-07-04-xhr-apostrophe/</guid>
       <description>👀 원인 axios를 이용해서 API 통신을 하던 도중, 전혀 통신이 되지 않거나 에러가 나는 경우를 발견했다.
 문제는 axios header에 정보를 넘길 때, 의도치않게 특수문자 아퍼스트로피(’)가 포함되어 있을 경우 에러나 응답이 통신이 안되는 문제.
  아퍼스트로피 (’)와 홑따옴표 (&#39;)는 다르다

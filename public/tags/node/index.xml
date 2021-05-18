@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Node on KwanDev</title>
-    <link>http://example.org/tags/node/</link>
+    <link>https://kwandev.github.io/tags/node/</link>
     <description>Recent content in Node on KwanDev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
-    <lastBuildDate>Thu, 26 Mar 2020 15:22:00 +0000</lastBuildDate><atom:link href="http://example.org/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Mar 2020 15:22:00 +0000</lastBuildDate><atom:link href="https://kwandev.github.io/tags/node/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker 커맨드 정리</title>
-      <link>http://example.org/post/docker/2020-03-26-docker-command/</link>
+      <link>https://kwandev.github.io/post/docker/2020-03-26-docker-command/</link>
       <pubDate>Thu, 26 Mar 2020 15:22:00 +0000</pubDate>
       
-      <guid>http://example.org/post/docker/2020-03-26-docker-command/</guid>
+      <guid>https://kwandev.github.io/post/docker/2020-03-26-docker-command/</guid>
       <description>Docker를 처음 사용해보고 적용해보면서 만나는 기본적인 명령어나, 스니펫들을 정리해놓기로 했다.
 지속적으로 업데이트하며 계속 들여다보도록 하자.
 🛠 설정파일 .dockerignore docker 이미지를 만들 때에 제외할 파일이나 폴더를 설정해놓을 수 있다. gitignore를 생각하면 편하다.
