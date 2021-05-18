@@ -35,5 +35,5 @@ jobs:
           destination-github-username: 'kwandev'
           destination-repository-name: 'kwandev.github.io'
           user-email: rudghks7816@gmail.com
-          target-branch: master
+          target-branch: main
 
