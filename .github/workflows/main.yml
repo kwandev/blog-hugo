@@ -26,11 +26,14 @@ jobs:
       - name: Build
         run: hugo --minify
           
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
         env:
-          EXTERNAL_REPOSITORY: kwandev/kwandev.github.io
-          ACTIONS_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          PUBLISH_BRANCH: master
-          PUBLISH_DIR: ./public
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: 'public'
+          destination-github-username: 'kwandev'
+          destination-repository-name: 'kwandev.github.io'
+          user-email: rudghks7816@gmail.com
+          target-branch: main
 
