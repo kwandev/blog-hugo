@@ -25,3 +25,5 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+googleAnalytics: UA-90320470-2
