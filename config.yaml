@@ -26,4 +26,5 @@ markup:
     renderer:
       unsafe: true
 
-googleAnalytics: UA-90320470-2
+# googleAnalytics: UA-90320470-2
+googleAnalytics: G-KTWEFES8PN
