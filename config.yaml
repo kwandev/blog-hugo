@@ -14,6 +14,8 @@ menu:
   header:
     - name: Articles
       url: "/articles/"
+    - name: Tags
+      url: "/tags/"
   footer:
     - name: RSS
       url: "/index.xml"
