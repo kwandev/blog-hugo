@@ -10,7 +10,7 @@
   {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-  {{ if not hugo.IsServer }} {{ with .Site.GoogleAnalytics }}
+  {{ if not hugo.IsServer }} {{ with site.Config.Services.GoogleAnalytics.ID }}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script
     async
