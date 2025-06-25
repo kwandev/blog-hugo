@@ -2,11 +2,11 @@
 
 name: Build & Deploy
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -16,24 +16,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      
+      - uses: actions/checkout@v4
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.83.1'
-          
+          hugo-version: "0.147.9"
+          extended: true
+
       - name: Build
         run: hugo --minify
-          
+
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'public'
-          destination-github-username: 'kwandev'
-          destination-repository-name: 'kwandev.github.io'
+          source-directory: "public"
+          destination-github-username: "kwandev"
+          destination-repository-name: "kwandev.github.io"
           user-email: rudghks7816@gmail.com
           target-branch: main
-
