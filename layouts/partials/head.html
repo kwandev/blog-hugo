@@ -1,25 +1,28 @@
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="theme-color" content="dark">
-    <meta name="google-adsense-account" content="ca-pub-4741358150977744">
-    <title>{{ with .Title }} {{ . }} | {{ end }}{{ .Site.Title }}</title>
-    <!-- uncomment this to add favicon -->
-    <!-- <link rel="icon" type="image/png" href="{{ "/icons/favicon.png" | relURL }}" /> -->
-    {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="dark" />
+  <meta name="google-adsense-account" content="ca-pub-4741358150977744" />
+  <title>{{ with .Title }} {{ . }} | {{ end }}{{ .Site.Title }}</title>
+  <!-- uncomment this to add favicon -->
+  <!-- <link rel="icon" type="image/png" href="{{ "/icons/favicon.png" | relURL }}" /> -->
+  {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
-    {{ if not .Site.IsServer }}
-    {{ with .Site.GoogleAnalytics }}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', '{{ . }}');
-    </script>
-    {{ end }}
-    {{ end }}
+  {{ if not hugo.IsServer }} {{ with .Site.GoogleAnalytics }}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id={{ . }}"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "{{ . }}");
+  </script>
+  {{ end }} {{ end }}
 </head>

@@ -2,7 +2,8 @@ baseURL: "https://kwandev.github.io"
 languageCode: "ko"
 title: "KwanDev"
 theme: "tania"
-paginate: 8
+pagination:
+  pagerSize: 8
 
 params:
   titleEmoji: "😎"

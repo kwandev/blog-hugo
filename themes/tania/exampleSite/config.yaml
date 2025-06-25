@@ -5,10 +5,10 @@ theme: "hugo-tania"
 paginate: 6
 
 params:
-  titleEmoji: '😎'
+  titleEmoji: "😎"
   socialOptions:
-    github: 
-    twitter: 
+    github:
+    twitter:
 
 menu:
   header:
